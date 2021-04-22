@@ -1,0 +1,8 @@
+POST  http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwNjNmZmUyMTYwNjViMjZiMjczZGU4ZSIsInVzZXJuYW1lIjoiY2FybG9zZHVtbXkiLCJpYXQiOjE2MTc3NjI1MDJ9.r8CYEmGddZ3-R9S3YJsCa_Ue643mIiLXGUGyPeU-Lp4
+
+{
+  "content": "Note with middleware",
+  "important": true
+}

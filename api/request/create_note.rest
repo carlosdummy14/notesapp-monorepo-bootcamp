@@ -1,0 +1,16 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+  "content": "Se crea una segunda nota",
+  "important": true,
+  "userId":"6063ffe216065b26b273de8e"
+}
+
+###
+
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+}
