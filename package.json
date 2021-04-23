@@ -15,9 +15,10 @@
     "build": "SKIP_PREFLIGHT_CHECK=true npm run build --workspace=app",
     "start": "npm run start --workspace=api",
     "dev:api": "npm run build && npm run dev --workspace=api",
-    "lint": "standard"
+    "lint": "eslint ./api ./app"
   },
   "eslintConfig": {
+    "ignorePatterns": "build",
     "extends": "./node_modules/standard/eslintrc.json",
     "env": {
       "cypress/globals": true,
